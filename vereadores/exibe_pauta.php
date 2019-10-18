@@ -18,12 +18,10 @@ if (!empty($liberar_row['inicio_sessao']) && $liberar_row['inicio_sessao'] != '0
 <script>
     function atualizaPagina() {
         chamarPaginaAjax('exibe_pauta_conteudo.php', '', function(r) {
-            if ($('#conteudo_pagina').html() != r) {
-                $('#conteudo_pagina').html(r);
-            }
+            $('#conteudo_pagina').html(r);
             setTimeout(function() {
                 atualizaPagina();
-            }, 2000);
+            }, 1000);
         });
     }
     $(function(){

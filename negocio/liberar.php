@@ -16,7 +16,7 @@ class liberar extends generico {
             return 5 * 60;
         }
         else if ($row['expediente'] == 'grande') {
-            return 20 * 60;
+            return 10 * 60;
         }
         else if ($row['expediente'] == 'explicacao') {
             return 5 * 60;

@@ -93,7 +93,7 @@ if (!empty($liberar_row['inicio_sessao']) && $liberar_row['inicio_sessao'] != '0
                     <span class="contador">
                         <div>
                             <span class="middle">
-                                <img src="../auxiliares/images/relogio2.png" style="width: 80px;" onclick="confirma('Deseja adicionar 5 minutos ao tempo?', function () {
+                                <img src="../auxiliares/images/relogio2.png" style="width: 80px;" onclick="confirma('Deseja adicionar 10 minutos ao tempo?', function () {
                                             chamarPaginaAjax('adicionar_tempo_normal.php');
                                         })"/>
                             </span>
@@ -103,7 +103,7 @@ if (!empty($liberar_row['inicio_sessao']) && $liberar_row['inicio_sessao'] != '0
                         </div>
                         <div>
                             <span class="middle">
-                                <img src="../auxiliares/images/relogio2.png" style="width: 80px;" onclick="confirma('Deseja adicionar 2 minutos ao tempo?', function () {
+                                <img src="../auxiliares/images/relogio2.png" style="width: 80px;" onclick="confirma('Deseja adicionar 1 minutos ao tempo?', function () {
                                             chamarPaginaAjax('adicionar_tempo_adicional.php');
                                         })"/>
                             </span>
@@ -260,7 +260,7 @@ if (!empty($liberar_row['inicio_sessao']) && $liberar_row['inicio_sessao'] != '0
         $vereador = new vereador();
         $vereador_rs = $vereador->obterTodos();
         foreach ($vereador_rs as $vereador_row) {
-            echo "<option value='{$vereador_row['id']}'>{$vereador_row['nome']}</option>";
+            echo "<option value='{$vereador_row['id']}'>{$vereador_row['nome_urna']}</option>";
         }
         ?>
     </select>  

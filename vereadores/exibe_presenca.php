@@ -75,7 +75,7 @@ $qtd = 0;
             else {
                 setTimeout(function () {
                     checkAtualizaPresenca();
-                }, 10000);
+                }, 4000);
             }
         });
     }
@@ -84,7 +84,7 @@ $qtd = 0;
             $('#vereadores').html(r);
             setTimeout(function () {
                 checkAtualizaPresenca();
-            }, 10000);
+            }, 4000);
         });
     }
 </script>

@@ -976,7 +976,7 @@ h2 {
     display: inline-block;
     position: relative;
     width: 32%;
-    height: 180px;
+    height: 170px;
     border: 4px solid #00209F;
     text-align: left;
     overflow: hidden;
@@ -989,17 +989,17 @@ h2 {
 }
 .exibe_vereador .img_vereador img {
     width: 110px; 
-    height: 180px;
+    height: 160px;
 }
 .exibe_vereador .img_partido {
     position: absolute; 
     top: 2px; 
-    left: 110px; 
+    left: 90px; 
     opacity: 0.1;
 }
 .exibe_vereador .img_partido img {
     width: 320px; 
-    height: 140px; 
+    height: 90px; 
     z-index: 1;
 }
 .exibe_vereador .texto {
@@ -1015,7 +1015,7 @@ h2 {
 .exibe_vereador .texto .texto_nome {
     display: inline-block;
     width: 100%;
-    height: 113px;
+    height: 100px;
     font-size: 40px;
     white-space: normal;
 }

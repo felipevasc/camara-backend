@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class conexao {
     private $tipoBanco;
     private $host;
@@ -14,8 +14,8 @@ class conexao {
             $this->host = "127.0.0.1";
             $this->porta = "3306";
             $this->banco = "camara";
-            $this->usuario = "root";
-            $this->senha = "";
+            $this->usuario = "phpmyadmin";
+            $this->senha = "123456";
             $this->transacoes = array();
     }
     

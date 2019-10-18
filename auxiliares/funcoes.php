@@ -479,7 +479,12 @@ class funcoes {
     }
     
     public static function nomeTabelaByCaminho($file) {
-        $tmp = explode("\\", $file);
+        if (strpos($file, "/") !== false) {
+		$tmp = explode("/", $file);
+	}
+	else {
+		$tmp = explode("\\", $file);
+	}
         $i = count($tmp) - 1;
         $nome_pagina = $tmp[$i];
         $nomeTabela = $nome_pagina;

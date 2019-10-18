@@ -13,7 +13,7 @@ if (empty($_POST['ajax']) && empty($_GET['ajax'])) {
     <html>
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Câmara Municipal de Viçosa</title>
+            <title>Câmara Municipal de Granja</title>
             <script src="../auxiliares/jquery.js"></script>
             <script src="../auxiliares/jquery-ui.js"></script>
             <script src="../auxiliares/chart/Chart.js"></script>
