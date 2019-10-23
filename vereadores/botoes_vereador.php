@@ -69,6 +69,7 @@ if (empty($presente)) {
 if (!empty($liberar_row['votacao_projeto'])) {
     $votacao = new votacao();
     $voto = $votacao->getResultadoVereador($_GET['vereador']);
+    
     if (empty($voto)) {
         ?>
         <button class="btn btn-primary" style="font-size: 25px;" onclick="votacao()">
